@@ -1,0 +1,317 @@
+body{
+    text-align: center;
+    margin: auto;
+}
+.white-background{
+    background-color: white;
+    color: #000;
+}
+.colored-background{
+    background-color: #ff4c68;
+    color: white;
+}
+#title{
+    color:#fff;
+    padding: 2% 12% 1% 12%;
+}
+
+#navbar{
+    padding-bottom: 4.5rem;
+}
+
+#title .navbar-brand{
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color:#fff;
+}
+
+#navbar a{
+    color: #fff;
+    font-family:montserrat-light;
+    font-size: 1rem;
+    padding:0 18px;
+}
+
+
+.navbar ul{
+    list-style-type: none;
+}
+
+
+
+
+#container1fluid #col-1{
+    padding: 6% 0;
+    text-align: left;
+}
+
+
+   
+
+#container1fluid h1{
+    font-size: 3.4rem;
+    font-weight: 800;
+    font-style: ubuntu-bold;
+    padding: 20px 0 60px;
+    text-align: left;
+}
+ #container1fluid button{
+    margin: 20px 10px;
+    
+ }
+ img.dog-image{
+    position: absolute;
+    transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    width: 55%;
+    z-index: 0;
+    left: 50px;
+}
+
+#features{
+    padding: 200px 0 ;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+#features i{
+    padding-bottom: 25px;
+}
+
+#features p{
+    font-weight: lighter;
+    font-size: 1.2rem;
+    font-family:ubuntu;
+    margin: 0 auto;
+    padding: 10px;
+    width: 70%;
+}
+#features h3 {
+    font-size: 2rem;
+    font-family: montserrat-bold;
+    font-weight: 700;
+    padding: 10px;
+}
+
+
+
+#testimonials{
+    font-family: ubuntu;
+    font-weight: 300;
+    font-size:1.6rem;
+    line-height: 2.5;
+    padding: 1.5% 0 4%;
+}
+#testimonials h2{
+    color: #fff;
+    font-family:ubuntu;
+    font-weight: 600;
+    font-size:2rem;
+    line-height: 2;
+    margin: 0 auto;
+    padding: 2%;
+    width: 70%;
+}
+
+
+#testimonials #col-1{
+    margin: auto;
+    
+}
+#testimonials #col-2{
+    color: #fff;
+    margin: 2% auto ;
+    width: 20%; 
+}
+#testimonials hr{margin:auto;
+    padding-bottom: 2%;
+    width:10%;
+    border-top: 7px dotted #fff;
+}
+
+#testimonials img{
+    margin: 0 auto;
+    padding: 0;
+    width: 19%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+#testimonials em{
+    font-family: montserrat;
+    font-weight: normal;
+    font-size:1rem;
+}
+#press .row{
+    padding: 4% 0 2%;
+    text-align: center;
+}
+
+#press img{
+    width: 40%;
+    
+}
+#pricing{
+    padding: 5% 1% ;
+    margin: 0 auto;
+   
+}
+#pricing #row-1{
+    width: fit-content;
+    margin: 0 auto;
+    padding-bottom: 4%;
+
+}
+#pricing h3{
+font-family: ubuntu;
+font-weight: 400;
+font-size: 2rem;
+color:#000;
+line-height: 2;
+}
+#pricing h2{
+    font-family: montserrat;
+    
+    font-size: 2rem;
+    color:#ff4c68;
+    line-height: 1;
+    padding: 0 0 15px  0;
+    }
+.paragraphs{
+    
+    text-align: center;
+    
+    
+    font-size: 0.8rem;
+    margin: auto 0;
+}
+#pricing p{
+    font-family: montserrat;
+    font-size: 1rem;
+    font-weight: normal;
+}
+#pricing #row-1-h2{
+    font-family: ubuntu;
+    line-height: 2.5;
+    font-weight: bold;
+    font-size: 2.9rem;
+    color: black;
+}
+
+#cta{
+    
+    padding: 2% 0 ;
+    
+
+   
+}
+#cta .row{
+    margin: auto;
+    padding: 0 0 3%;
+    width:80%;
+}
+#cta h3{
+   padding: 3% 0 5%;
+   color: white;
+   font-family: ubuntu;
+   font-size: 2.8rem;
+   font-weight: bolder;
+   margin: 0 auto; 
+   line-height: 2;
+   
+   width:80% ;
+}
+#footer{
+    padding:1% 0 0.5% 0;
+   
+     font-family:montserrat;
+}
+#cards-row{
+padding:50px;
+}
+
+
+@media (max-width:1100px){ 
+    #title{
+        font-size: 110%;
+    }
+    #cards{
+        padding-top: 5%;
+        width: 100%;
+    }
+    
+#features{
+    background-color: white;
+   
+    padding: 200px 0 ;
+    line-height: 3;
+
+    
+position: static;
+
+
+text-align: center;
+    font-family: mentsarrat;
+    font-weight:400;
+    font-size: large;
+   
+}
+    
+    
+}
+@media (max-width: 1000px ),(min-width:800px ) {#title{
+    font-size: larger;
+    line-height: 3;
+}
+.dog-image{
+    padding: 13% 0 3%;
+    width: 65%;
+    position: static;
+    transform: rotate(0);
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+}
+    
+}
+@media (max-width: 800px ){#title{
+    font-size: larger;
+    line-height: 6;
+}
+.dog-image{
+    padding: 13% 0 3%;
+    width: 80%;
+    position: static;
+    transform: rotate(0);
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+}
+    
+}
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media(min-aspect-ratio:16/9){
+    .back-video{
+        width: 100%;
+        height:auto ;
+    }
+}
+@media(max-aspect-ratio:16/9){
+    .back-video{
+        height: 100%;
+        width:auto ;
+    }
+}
